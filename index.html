@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css">
+
+    <title>Hello, world!</title>
+    <style>
+      .jado {
+        margin-top: 100px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="head text-center my-5 text-secondary">
+        <h1>
+          <a href="" onclick="detail()" id="detail"
+            >JavaScript Assignment ch# 1-67</a
+          >
+        </h1>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 col-sm-12 text-center">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSPrOYX6yC7gvIO26EPyRfLW6g4hOTODelCzA&usqp=CAU"
+            alt=""
+          />
+          <br />
+          <button
+            type="button"
+            class="btn btn-info"
+            onclick="cart()"
+            id="cartbutton"
+          >
+            Purchase
+          </button>
+        </div>
+        <div class="col-md-3 col-sm-12 text-center">
+          <img
+            class="mb-5 pb-2"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTc9Jw5EcxrzNBtvpfLbcJN2nedEe6i2bwMEQ&usqp=CAU"
+            alt=""
+          />
+          <br />
+          <button
+            type="button"
+            class="btn btn-info"
+            onclick="cart()"
+            id="cartbutton"
+          >
+            Purchase
+          </button>
+        </div>
+        <div class="col-md-3 col-sm-12 text-center">
+          <img
+            class="mb-5 pb-2"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTc9Jw5EcxrzNBtvpfLbcJN2nedEe6i2bwMEQ&usqp=CAU"
+            alt=""
+          />
+          <br />
+          <button
+            type="button"
+            class="btn btn-info"
+            onclick="cart()"
+            id="cartbutton"
+          >
+            Purchase
+          </button>
+        </div>
+        <div class="col-md-3 col-sm-12 text-center">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSPrOYX6yC7gvIO26EPyRfLW6g4hOTODelCzA&usqp=CAU"
+            alt=""
+          />
+          <br />
+          <button
+            type="button"
+            class="btn btn-info"
+            onclick="cart()"
+            id="cartbutton"
+          >
+            Purchase
+          </button>
+        </div>
+      </div>
+
+
+        <div class="task2 text-center my-5 ml-5">
+        <table border="1">
+            <th>Index</th>
+            <th>Name</th>
+            <th>Class</th>
+            <th>Action</th>
+            <tr>
+                <td>0</td>
+                <td>John</td>
+                <td>10</td>
+                <td><button onclick="deletee(this)" id="delete">Delete</button></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Ibrahin</td>
+                <td>12</td>
+                <td><button onclick="deletee(this)" id="delete">Delete</button></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Ella</td>
+                <td>8</td>
+                <td><button onclick="deletee(this)" id="delete">Delete</button></td>
+            </tr>
+
+
+
+
+        </div>
+
+
+
+        </table>
+
+        
+        <div class="row">
+        <div class=" jado col-md-12 ml-5 col-sm-12 text-center">
+          <img onmouseover='offbulb()' onmouseout='onbulb()' src="img/onbulb.jpg" alt="" id="bulb" />
+         
+        </div>
+
+      </div>
+</div>
+      <div class="counter text-center">
+
+        <h1 id="counterr">0</h1>
+        <br> <button onclick="counter()">count</button>
+        
+    </div>
+
+
+
+    <!-- <div  class="container signup bg-primary text-center my-5 py-4">
+      <h2>Student Signup Form</h2>
+      <form action="">
+      Name : <input type="text" id="name"><br><br>
+      Email : <input type="email" id="email"><br><br>
+      Description : <input type="text" id="description">
+
+      <br><br>
+      <button type="submit" onclick="signup()">Signup</button>
+    
+
+
+
+    </div> -->
+
+
+    <div class="container">
+      <div class="student">
+        <form>
+
+          Name : <input type="text" id="StudentName">
+
+          Roll No. : <input type="text" id="StudentRoll">
+
+          <button  onclick="addstudent()">Add Student</button>
+        </form>
+      </div>
+    
+
+          <br><br>
+
+
+          <table border="1">
+            <tbody>
+            <tr>
+            <th>Name</th>
+            <th id="sturoll">Roll No.</th>
+            <th id="eddit">Edit</th>
+            <th id="dellete">Delete</th>
+            </tr>
+            
+
+            <tr>
+              <td><span id="stuname">hello</span></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </tbody>
+          </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+
+
+
+
+    </div>
+
+
+    <div class="container my-5">
+      <div class="row">
+
+        <div class="col-md-3 mx-3">
+          <img  id="myImg" class="myImg" src="https://www.w3schools.com/howto/img_snow.jpg" alt="" height="200">
+
+
+        </div>
+
+        <div class="col-md-3 mx-3">
+          <img id="myImg" class="myImg" src="https://www.w3schools.com/howto/img_snow.jpg" alt="" height="200">
+
+
+        </div>
+
+        <div class="col-md-3 mx-3">
+          <img  id="myImg" class="myImg" src="https://www.w3schools.com/howto/img_snow.jpg" alt="" height="200">
+
+
+        </div>
+
+
+
+
+      </div>
+
+
+
+    </div>
+
+    <!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
+
+
+
+
+
+
+
+
+
+    <!-- <div> <h1> DOM </h1> <div id="form-content" class="content"> <label for="first-name">First Name</label> <input type="text" id="first-name" /> <label for="last-name">Last Name</label> <input type="text" id="last-name" /> <label for="email">Email</label> <input type="text" id="email" /> </div> <div id="main-content" class="content"> <p class="render"> First Name : <span id="firstname">Alex</span> </p> <p class="render" id="lastName">Last Name: <span id="lastname">Bank</span> </p> <p class="render"> Email : <span id="email1">alexbank@example.com</span> </p> <p class="render"> Country : Pakistan </p> <p class="render"> contact : +92 300 1234567</p> </div> </div> 
+ -->
+
+
+ <br>
+
+
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel<span id="dots">...</span><span id="more">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
+
+<button onclick="myFunction()" id="myBtn">Read more</button>
+
+
+
+
+
+
+<tr>
+  <th>Subjects</th>
+  <th>Total Marks</th>
+  <th>Obtained Marks</th>
+  <th>Percentage</th>
+</tr>
+<tr>
+  <td>book_1</td>
+  <td></td>
+  <td></td>
+  <td></td>
+</tr>
+</table> -->
+
+
+    <script src="app.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
